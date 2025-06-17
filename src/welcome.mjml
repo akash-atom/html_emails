@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mjml>
+  <mj-head>
+    <mj-title>Welcome Newsletter</mj-title>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <mj-attributes>
+      <mj-all font-family="Roboto, Helvetica, sans-serif" />
+    </mj-attributes>
+    <mj-style>
+      .link-nostyle { color: inherit; text-decoration: none }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f4f4f4">
+    <!-- Header Section -->
+    <mj-section background-color="#ffffff" padding-bottom="0">
+      <mj-column>
+        <mj-image src="https://via.placeholder.com/200x50" alt="Company Logo" align="center" width="200px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero Section -->
+    <mj-section background-color="#ffffff" padding-top="0">
+      <mj-column>
+        <mj-text font-size="32px" color="#333333" align="center">
+          Welcome to Our Newsletter
+        </mj-text>
+        <mj-text font-size="16px" color="#666666" line-height="24px">
+          Hi there,
+          <br/><br/>
+          Thank you for subscribing to our newsletter. We're excited to have you on board and can't wait to share our latest updates with you.
+        </mj-text>
+        <mj-button background-color="#2196F3" color="white" href="https://your-website.com">
+          Get Started
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Features Section -->
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-text font-size="24px" color="#333333" align="center">
+          What's Inside
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section background-color="#ffffff" padding-top="0">
+      <mj-column>
+        <mj-image src="https://via.placeholder.com/150" alt="Feature 1" width="150px" />
+        <mj-text font-size="18px" color="#333333" align="center">
+          Latest Updates
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image src="https://via.placeholder.com/150" alt="Feature 2" width="150px" />
+        <mj-text font-size="18px" color="#333333" align="center">
+          Special Offers
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer Section -->
+    <mj-section background-color="#333333">
+      <mj-column>
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal" align="center">
+          <mj-social-element name="facebook" href="https://facebook.com" />
+          <mj-social-element name="twitter" href="https://twitter.com" />
+          <mj-social-element name="linkedin" href="https://linkedin.com" />
+        </mj-social>
+        <mj-text color="#ffffff" align="center" font-size="12px">
+          © 2024 Your Company. All rights reserved.
+          <br/>
+          You're receiving this email because you signed up for our newsletter.
+        </mj-text>
+        <mj-text color="#ffffff" align="center" font-size="12px">
+          <a href="[[UNSUB_LINK_EN]]" class="link-nostyle">Unsubscribe</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml> 

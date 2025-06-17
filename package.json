@@ -1,0 +1,15 @@
+{
+  "name": "html_emails",
+  "version": "1.0.0",
+  "description": "Email templates using MJML",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:welcome",
+    "build:welcome": "mjml src/welcome.mjml -o dist/welcome.html",
+    "build:all": "for file in src/*.mjml; do filename=$(basename \"$file\" .mjml); mjml \"$file\" -o \"dist/$filename.html\"; done",
+    "watch": "mjml -w src/*.mjml -o dist"
+  },
+  "dependencies": {
+    "mjml": "^4.14.1"
+  }
+} 
