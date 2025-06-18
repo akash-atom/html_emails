@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mjml>
+  <mj-head>
+    <mj-title>Product Updates from Atomicwork</mj-title>
+    <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" />
+    <mj-attributes>
+      <mj-all font-family="Inter, Arial, sans-serif" />
+      <mj-text font-size="16px" color="#333333" line-height="24px" />
+      <mj-section padding="0" />
+      <mj-column padding="0" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .link-nostyle { color: #6366F1; text-decoration: none }
+      .small-icons { display: inline-block; margin-left: 8px; }
+      .top-white-container {
+        border-top-left-radius: 16px !important;
+        border-top-right-radius: 16px !important;
+        border-bottom-left-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+        overflow: hidden;
+      }
+      .bottom-white-container {
+        border-top-left-radius: 0 !important;
+        border-top-right-radius: 0 !important;
+        border-bottom-left-radius: 16px !important;
+        border-bottom-right-radius: 16px !important;
+        overflow: hidden;
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#F0F2F6">
+    <!-- Purple Header Section -->
+    <mj-section background-color="#7C3AED" padding="20px 0" full-width="full-width">
+      <!-- Header with Logo and Icons -->
+      <mj-column width="50%" vertical-align="middle">
+        <mj-image src="assets/top_logo.png" alt="Atomicwork" align="left" width="250px" padding="0 0 0 20px" />
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+        <mj-table padding="0 20px 0 0" align="right">
+          <tr>
+            <td style="vertical-align: middle; text-align: right;">
+              <a href="#"><img src="assets/email_chat.png" alt="Camera" width="29" style="margin-right: 24px;" /></a>
+              <a href="#"><img src="assets/email_voice.png" alt="Microphone" width="26" style="margin-right: 24px;" /></a>
+              <a href="#"><img src="assets/email_vision.png" alt="Video" width="30" /></a>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <!-- White Container in Purple Section -->
+    <mj-section background-color="#7C3AED" padding="0 20px 0" full-width="full-width">
+      <mj-column css-class="top-white-container" background-color="#ffffff" padding="0">
+        <mj-text padding="24px" align="left">
+          Hi Akash,
+How are you?<br/>
+<br/>
+          We've been busy at Atomicwork (as you might guess from this email reaching you midway through March ).We announced our inaugural CIO Advisory Board—a group of stalwart IT leaders helping us shape the future of enterprise service management with AI.
+
+
+        </mj-text>
+
+        
+      </mj-column>
+    </mj-section>
+
+    <!-- Main Content Section (Gray background) -->
+    <mj-section padding="0 20px" full-width="full-width">
+      <!-- White Content Container -->
+      <mj-column css-class="bottom-white-container" background-color="#ffffff" padding="0">
+        
+
+        <!-- Introduction -->
+      
+
+        <mj-text padding="0 24px 0">
+          And while these conversations are in full swing, we've been shipping new features to make service management work smarter for you. Here's a look at the highlights!
+        </mj-text>
+
+        <!-- Feature 1 -->
+        <mj-text padding="32px 24px 16px" font-weight="600" font-size="18px">
+          Turn knowledge into action
+        </mj-text>
+        <mj-text padding="0 24px" color="#4B5563">
+          You can now improve request deflection by identifying where the Assistant's responses fall short. Atomicwork uses insights from agent interactions and unhelpful responses to suggest improvements to your knowledge graph—so employees get the right answers next time, without your intervention.
+        </mj-text>
+        <mj-image padding="16px 24px 0" src="assets/kw_graph.png" alt="Knowledge Graph Feature" href="#" />
+
+        <!-- Feature 2 -->
+        <mj-text padding="32px 24px 16px" font-weight="600" font-size="18px">
+          Smarter relationships for better management
+        </mj-text>
+        <mj-text padding="0 24px" color="#4B5563">
+          Define relationships between assets, people, and service items in a way that makes sense for your organization. With these structured links, you can better automate approvals and workflows based on pre-defined connections.
+        </mj-text>
+        <mj-image padding="16px 24px 0" src="assets/relationship_feature.png" alt="Relationships Feature" href="#" />
+
+        <!-- Feature 3 -->
+        <mj-text padding="32px 24px 16px" font-weight="600" font-size="18px">
+          Automate changes with event-driven workflows
+        </mj-text>
+        <mj-text padding="0 24px" color="#4B5563">
+          Now, you can trigger workflows based on any change event—whether it's a new request or an update. Set dynamic approval paths and conditions so high-impact changes get the oversight they need, while routine updates move faster.
+        </mj-text>
+        <mj-image padding="16px 24px 0" src="assets/event_driven_workflow.png" alt="Workflows Feature" href="#" />
+
+        <!-- Closing -->
+        <mj-text padding="32px 24px 0">
+          And that's just a sneak peek at everything we worked on last month. Read our blog post for all the details and updates.
+        </mj-text>
+
+        <mj-text padding="24px 24px 0">
+          I'd love to know what you think about these features. Please do try them out and share your thoughts in a reply.
+        </mj-text>
+
+        <mj-text padding="24px 24px 0">
+          Looking forward to hearing from you.
+        </mj-text>
+
+        <!-- Signature -->
+        <mj-text padding="24px 24px 32px">
+          Best,<br/>
+          Aparna Chugh<br/>
+          Head of Product
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer Section with transparent background -->
+    <mj-section padding="24px 20px">
+      <mj-column>
+        <!-- Footer Text -->
+        <mj-text align="center" color="#6B7280" font-size="14px">
+          This email was sent to akash@gmail.com. If you'd rather not receive this kind of email, you can <a href="#" class="link-nostyle">unsubscribe or manage your email preferences</a>.
+        </mj-text>
+
+        <!-- Horizontal Logo and Social Icons -->
+        <mj-table width="100%" padding="24px 0 0 0">
+          <tr>
+            <td style="vertical-align: middle; text-align: left; padding-left: 0;">
+              <a href="#"><img src="assets/footer_logo.png" alt="Atomicwork" width="120px" style="display: block;" /></a>
+            </td>
+            <td style="vertical-align: middle; text-align: right; padding-right: 0;">
+              <a href="https://x.com/atomicworkhq"><img src="assets/x_icon.png" alt="Twitter" width="21" style="margin-right: 12px;" /></a>
+              <a href="https://www.instagram.com/atomicworkhq"><img src="assets/insta_icon.png" alt="Instagram" width="24" style="margin-right: 12px;" /></a>
+              <a href="https://www.linkedin.com/company/atomicworkhq"><img src="assets/linkedin_icon.png" alt="LinkedIn" width="26" /></a>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml> 
