@@ -2,7 +2,7 @@
 <html lang="und" dir="auto" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 
 <head>
-  <title>Product Updates from Atomicwork</title>
+  <title></title>
   <!--[if !mso]><!-->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!--<![endif]-->
@@ -105,6 +105,7 @@
 </head>
 
 <body style="word-spacing:normal;background-color:#F0F2F6;">
+  <div style="display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">Hello MJML</div>
   <div style="background-color:#F0F2F6;" lang="und" dir="auto">
     <!-- Purple Header Section -->
     <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#7C3AED;background-color:#7C3AED;width:100%;">
@@ -393,7 +394,12 @@
                             <!-- Footer Text -->
                             <tr>
                               <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:Inter, Arial, sans-serif;font-size:14px;line-height:24px;text-align:center;color:#6B7280;">This email was sent to akash@gmail.com. If you'd rather not receive this kind of email, you can <a href="#" class="link-nostyle" style="color: #6366F1; text-decoration: none;">unsubscribe or manage your email preferences</a>.</div>
+                                <div style="font-family:Inter, Arial, sans-serif;font-size:14px;line-height:24px;text-align:center;color:#6B7280;">This email was sent to {{email}}. If you'd rather not receive this kind of email, you can {{ unsubscribe_link }} or manage your email preferences.</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                                <div style="font-family:Inter, Arial, sans-serif;font-size:14px;line-height:24px;text-align:center;color:#6B7280;">{{ site_settings.company_name }} {{ site_settings.company_street_address_1 }} {{ site_settings.company_city }} {{ site_settings.company_state }}</div>
                               </td>
                             </tr>
                             <!-- Horizontal Logo and Social Icons -->

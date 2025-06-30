@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mjml>
   <mj-head>
-    <mj-title>Product Updates from Atomicwork</mj-title>
+     <mj-preview>Hello MJML</mj-preview>
     <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" />
     <mj-attributes>
       <mj-all font-family="Inter, Arial, sans-serif" />
@@ -132,8 +132,13 @@ How are you?<br/>
       <mj-column>
         <!-- Footer Text -->
         <mj-text align="center" color="#6B7280" font-size="14px">
-          This email was sent to akash@gmail.com. If you'd rather not receive this kind of email, you can <a href="#" class="link-nostyle">unsubscribe or manage your email preferences</a>.
+          This email was sent to {{email}}. If you'd rather not receive this kind of email, you can {{ unsubscribe_link }} or manage your email preferences.
         </mj-text>
+
+        <mj-text align="center" color="#6B7280" font-size="14px">
+         {{ site_settings.company_name }} {{ site_settings.company_street_address_1 }} {{ site_settings.company_city }} {{ site_settings.company_state }}
+        </mj-text>
+
 
         <!-- Horizontal Logo and Social Icons -->
         <mj-table width="100%" padding="24px 0 0 0">
