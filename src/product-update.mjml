@@ -132,7 +132,7 @@ How are you?<br/>
       <mj-column>
         <!-- Footer Text -->
         <mj-text align="center" color="#6B7280" font-size="14px">
-          This email was sent to {{email}}. If you'd rather not receive this kind of email, you can {{ unsubscribe_link }} or manage your email preferences.
+          This email was sent to {{email}}. If you'd rather not receive this kind of email, you can <a href="{{ unsubscribe_link }}" class="link-nostyle">unsubscribe</a>
         </mj-text>
 
         <mj-text align="center" color="#6B7280" font-size="14px">
