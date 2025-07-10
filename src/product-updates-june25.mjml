@@ -32,7 +32,7 @@
 
   <mj-body background-color="#F0F2F6">
     <!-- Purple Header Section -->
-    <mj-section background-color="#7C3AED" padding="20px 0" full-width="full-width">
+    <mj-section background-color="#FF5D31" padding="20px 0" full-width="full-width">
       <!-- Header with Logo and Icons -->
       <mj-column width="50%" vertical-align="middle">
         <mj-image src="https://cdn.prod.website-files.com/64f08da4e7effe6dcb06d456/686fe53589223d9023dfb5c6_top_logo.png" alt="Atomicwork" align="left" width="250px" padding="0 0 0 20px" />
@@ -51,7 +51,7 @@
     </mj-section>
 
     <!-- White Container in Purple Section -->
-    <mj-section background-color="#7C3AED" padding="0 20px 0" full-width="full-width">
+    <mj-section background-color="#FF5D31" padding="0 20px 0" full-width="full-width">
       <mj-column css-class="top-white-container" background-color="#ffffff" padding="0">
         <mj-text padding="24px" align="left">
           Hi {{ contact.firstName | default('there') }},<br/>
